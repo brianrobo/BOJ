@@ -44,7 +44,7 @@ DP - Pibonachi
  . 1. Top-down : The daynamic which using recursive call.
       > There are big problem and divide it smaller one..
  . 2. Bottom-up : If you solve all smaller problems so then you can solve the problem which just one bigger problem than all smaller problems.
-      and this solved by using for loop.
+      and this solved by using for loop. <--(me) good knowledge.
 
 (20:30)
  . (FAQ) Can we solve the bottom-up also if it can be solved by Top-Down?
@@ -63,6 +63,7 @@ DP - Pibonachi
       : D[N] = D[N-1] + D[N-2]
    3) Implement that.
 
+~(22:00) : Let's start problem solving...  <--(me) (08/16) I done to here. :)
 
 
 
