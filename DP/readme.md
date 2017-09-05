@@ -40,6 +40,8 @@ DP - Pibonachi
 
 
 
+
+
 (18:23)
  . 1. Top-down : The daynamic which using recursive call.
       > There are big problem and divide it smaller one..
@@ -63,7 +65,11 @@ DP - Pibonachi
       : D[N] = D[N-1] + D[N-2]
    3) Implement that.
 
+
+file: 04_dp1.m4a
 ~(22:00) : Let's start problem solving...  <--(me) (08/16) I done to here. :)
+
+
 
 
 
