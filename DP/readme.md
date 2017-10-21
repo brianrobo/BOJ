@@ -1,4 +1,3 @@
-file: 04_dp1.m4a
 
 # Dyanamic Programming
 
@@ -63,48 +62,69 @@ file: 04_dp1.m4a
       - Daejon -> Daegu -> Busan.
     - The solution of subproblem is same, it's not changed
   - e.g) We need to solve the 4th Pibonaci again and again.. but it's not changed and it repeated.
-    - So we memo it to reuse it(economical) => memoization.
+    - So we memo it to reuse it(economical) => **memoization.**
 
 
+``` diff
+> solution of the (sub)problem is same.
+> and the (sub)problme is repeated.
+- => memo it! (Memoization!)
+```
+
+```c++
+int fibonacci(int n) {
+    if (n<=1) {
+        return n;
+    } else {
+        return fibonacci(n-1) + fibonacci(n-2);
+    }
+}
+```
+> O(2^n)
+
+```c++
+int fibonacci(int n) {
+    if (n<=1) {
+        return n;
+    } else {
+        if(memo[n] > 1) {
+            return memo[n];
+        }
+        memo[n] = fibonacci(n-1) + fibonacci(n-2);
+        return memo[n];
+    }
+}
+```
+> O(N)
 
 
+## Implement
+1. Top-down
+  - The daynamic which using **recursive call**.
+  - There are big problem and divide it smaller one..
+2. Bottom-up
+  - If you solve all smaller problems so then you can solve the problem which just one bigger problem than all smaller problems.
+  - and this solved by using the **for loop**.
 
-(18:23)
- . 1. Top-down : The daynamic which using recursive call.
-      > There are big problem and divide it smaller one..
- . 2. Bottom-up : If you solve all smaller problems so then you can solve the problem which just one bigger problem than all smaller problems.
-      and this solved by using for loop. <--(me) good knowledge.
+``` diff
+> solve by using "for loop"
+- => solve all smaller one <-- good knowledge.
+```
 
-(20:30)
- . (FAQ) Can we solve the bottom-up also if it can be solved by Top-Down?
-         => normally yes.
-	    But some specific problem only can solved by one of way.
+### FAQ
+1. Can we solve the bottom-up also if it can be solved by Top-Down?
+  - normally yes.
+  - But some specific problem only can solved by one of way.
 
-(21:20)
- . Until now, the DP theoryticall knowledge.
-   But DP problem can not solve absolutely even though we know the this theoritical knowledge.
+Until now, the DP theoryticall knowledge.
 
- . <How to solve the DP problem>
-   > Define the jum-hwa-sik
-   1) Define the definition of the jum-hwa-sick
+2. But DP problem can not solve absolutely even though we know the this theoritical knowledge.
+
+### How to solve the DP problem
+1. Define the definition of the jum-hwa-sick
       : D[N] = Let's Nth fibonachi.
-   2) Make the fomula
+2. Make the fomula
       : D[N] = D[N-1] + D[N-2]
-   3) Implement that.
-
-
-file: 04_dp1.m4a
-~(22:00) : Let's start problem solving...  <--(me) (08/16) I done to here. :)
-
-
-
-
-
-
-
-
-
-
-
+3. Implement that.
 
 
