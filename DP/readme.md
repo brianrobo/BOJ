@@ -1,10 +1,10 @@
 file: 04_dp1.m4a
 
+#Dyanamic Programming
 
-<Contents>
-Dyanamic Programming
- . The algorithm which solving the big problem after dividing small problem.
- . The terminology of the DP has no meaning.
+## What is DP?
+- solving big problem -> by dividing small problem.
+- DP itself has no meaning.
 
  . Divide & Conquer also solving big problem after dividing it by smalll problem   but it has no repetetion things into the problem.
    * The repetition means : Solving the same problem again.
