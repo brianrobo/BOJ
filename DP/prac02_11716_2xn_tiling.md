@@ -2,7 +2,7 @@
 
 <https://www.acmicpc.net/problem/11726>
 
-> 04_dp1 (32:36~)
+> 04_dp1
 
 
 ## problem
@@ -12,7 +12,7 @@
 ## spe
 (skip) use pen and note..
 
-## (TIP1) "~number of way~~" => DP
+## (TIP1) "...number of way..." => DP
 
 ## my try
 - let's D[n] : 2xn, filling way with 1x2, 2x1
