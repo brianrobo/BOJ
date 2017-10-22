@@ -1,3 +1,11 @@
+/*
+D[n] = min times operations which make 'n' to '1'
+       by using 3 operations(/3, /2, -1).
+
+D[n] = min(1+D[n/3], 1+D[n/2], 1+D[n-1])
+*/
+
+
 #include <iostream>
 using namespace std;
 
@@ -28,6 +36,11 @@ int go(int n) {
 
 	return min;
 }
+
+(WIK) The reason why don't check from (n/3) case.
+      if I start with (n/3), later I can't check the more min times one.
+      But acturally, this problem don't care the check sequence,
+      calc all 3 cases and use most min one. but if so, (n-1) case also use if-clause.
 */
 
 
@@ -38,7 +51,7 @@ int go2(int n) {
 
 	if (memo[n] > 0) return memo[n];
 
-	memo[n] = 1 + go2(n - 1);
+	memo[n] = 1 + go2(n - 1);  // <-- in here memo[n] definitely assigned once. so belows no need to check "memo[n] > 0"
 
 	if (n % 2 == 0) {
 		int temp = 1 + go2(n / 2);
