@@ -2,19 +2,19 @@
 <https://www.acmicpc.net/problem/1463>
 
 ## WIK
-to integer 'X', we can apply the below 3 operaions
+integer 'X' given and we can apply the below 3 operaions
 1. If 'X' can be divided by 3, divide by 3.
 2. If 'X' can be divided by 2, devide by 2.
 3. subtract '1'
 
 ## WIW
-providing integer 'N'
-make it by using the above 3 operaions.
-and find the minimum operation case.
+- integer 'N' given
+- make N to 1 by using the above 3 operations.
+- find minimum times of operation apply case.
 
 ## SPE
 - If '15'
-  - 15%3 = 0   <-- it doesn't meet.
+  - 15%3 = 0   <-- it doesn't meet, when try /3 first.
   - 15%2 = 1   <-- it works.
 
 
@@ -28,7 +28,7 @@ and find the minimum operation case.
 
 - So, in this problem.
   What do we need to calc?
-  -> the minimum operation count to make 'n' to '1'.
+  -> **the minimum operation count to make 'n' to '1'.**
 
 
 - d[n] : let's define this is the minimum operation count to make 'n' to '1'.
@@ -48,9 +48,23 @@ and find the minimum operation case.
 
 
 
-## 1th summary
-- It isn't just divide the some big-problem into  small-problem.
-- It divide one small-problem and other-problem.
-  (e.g., n-> n/2 or n/3...) (and other)
+## PAT(T)
+- case
+  1. 1 + D[n/3]
+  2. 1 + D[n/2]
+  3. 1 + D[n-1]
+
+- among above 3 cases, select minimum one.
+  - D[n] = min(1+D[n/3], 1+D[n/2], 1+D[n-1])
+    - spe) D[n/3] = min(1+D[n/9], 1+D[n/6], 1+D[3/n-1])
+    - spe) D[n/2] = min(~D[n/6]...)  <-- ok D[n/6] overlapped!
+
+- Does it meet the DP?
+  - big size input problem, solve it by using other smaller input size problem.
+  - overlapped.
+  - intuition, same solution if it is same problem.
+
+
+
 
 
