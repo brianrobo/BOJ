@@ -22,16 +22,16 @@
 
   so D[n] = D[n-1] + D[n-2] + D[n-3]
 
-     D[0] = 0
-     D[1] = 1
-     D[2] = 2
-     D[3] = 3 <-- 4
+  -  D[0] = 0
+  -  D[1] = 1
+  -  D[2] = 2
+  -  D[3] = 3  <-- 3이아니고 4임!
 
 
 ### failed
 - The order is matter
-  consider n=3
-- below 2, 3 is not same thing
+- consider n=3
+  - below 2, 3 is not same thing
 
 1. 1 + 1 + 1
 2. 1 + 2
