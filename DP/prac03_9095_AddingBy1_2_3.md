@@ -28,21 +28,21 @@
      D[3] = 3 <-- 4
 
 
-### fail
+### failed
 - The order is matter
   consider n=3
 - below 2, 3 is not same thing
 
-1. 1 1 1
-2. 1 2
-3. 2 1
+1. 1 + 1 + 1
+2. 1 + 2
+3. 2 + 1
 4. 3
  
 
 ``` diff
 - (WIK) 1, 2, 3으로 만드는 방법임.
-        각 경우를 한거랑  안한거랑 나누면 되고,
-	just 방법의 수니, 각 한거할때 count+1.안해도됨 (like 'Make 1')
+-       각 경우를 한거랑  안한거랑 나누면 되고,
+-	just '방법의 수'니, 각 경우를  한거할때 count+1을 안해도됨 (like 'Make 1')
 
 ```
 
