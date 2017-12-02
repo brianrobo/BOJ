@@ -36,7 +36,7 @@ Table of Content
 - 3fdfdfmdfj
 
 
-## Algorithm p3
+## Algorithm p3 0018
 ## 04:12 Baekjoon Online Judge p6
 ## 04:32 그 외의 사이트 p7
 ## 05:17 읽어보면 좋은 글 p8
