@@ -4,9 +4,10 @@ Table of Content
 ================
 
 * [Algorithm](#algorithm)
-* [Problem Solving Sites](problem-solving-sites)
-* [Study Method](study-method)
-* [Time Complexity](time-complexity)
+* [Problem Solving Sites](#problem-solving-sites)
+* [Study Method](#study-method)
+* [Time Complexity](#time-complexity)
+* [Practice](#practice)
 
 
 
