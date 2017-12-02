@@ -5,7 +5,7 @@ Table of Content
 
 * [00:14 알고리즘(title) p2](#algorithm-title-p2)
 * [00:18 알고리즘 p3](#algorithm-p3)
-* [04:12 Baekjoon Online Judge p6](#04:12 Baekjoon Online Judge p6)
+* [04:12 Baekjoon Online Judge p6](#boj-p6)
 * [04:32 그 외의 사이트 p7](#04:32 그 외의 사이트 p7)
 * [05:17 읽어보면 좋은 글 p8](#05:17 읽어보면 좋은 글 p8)
 * [05:40 공부하는 방법 p9](#05:40 공부하는 방법 p9)
@@ -30,14 +30,14 @@ Table of Content
 
 
 
-## algorithm title p2
+## Algorithm Title p2
 - dfdfd
 - 2dfdfdfsldfj
 - 3fdfdfmdfj
 
 
-## Algorithm p3 0018
-## 04:12 Baekjoon Online Judge p6
+## Algorithm p3
+## BOJ p6
 ## 04:32 그 외의 사이트 p7
 ## 05:17 읽어보면 좋은 글 p8
 ## 05:40 공부하는 방법 p9
