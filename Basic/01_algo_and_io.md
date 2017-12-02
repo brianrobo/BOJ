@@ -3,58 +3,98 @@
 Table of Content
 ================
 
-* [00:14 알고리즘(title) p2](#algorithm-title-p2)
-* [00:18 알고리즘 p3](#algorithm-p3)
-* [04:12 Baekjoon Online Judge p6](#boj-p6)
-* [04:32 그 외의 사이트 p7](#04:32 그 외의 사이트 p7)
-* [05:17 읽어보면 좋은 글 p8](#05:17 읽어보면 좋은 글 p8)
-* [05:40 공부하는 방법 p9](#05:40 공부하는 방법 p9)
-* [07:43 가장 중요한 점 p10](#07:43 가장 중요한 점 p10)
-* [07:55 프로그래밍 언어 p12](#07:55 프로그래밍 언어 p12)
-* [09:22 시간 복잡도(title) p13](#09:22 시간 복잡도title p13)
-* [09:31 시간 복잡도 p14](#09:31 시간 복잡도 p14)
-* [15:04 시간 복잡도 계산 p22](#15:04 시간 복잡도 계산 p22)
-* [16:59 입/출력(title) p23](#16:59 입/출력title p23)
-* [17:07 Hello World p24](#17:07 Hello World p24)
-* [17:31 A+B p25](#17:31 A+B p25)
-* [19:04 A+B - 3 p28](#19:04 A+B - 3 p28)
-* [21:03 A+B - 4 p31](#21:03 A+B - 4 p31)
-* [21:48 한 줄 입력받기 p33](#21:48 한 줄 입력받기 p33)
-* [23:08 그대로 출력하기 p34](#23:08 그대로 출력하기 p34)
-* [23:30 그대로 출력하기 2 p35](#23:30 그대로 출력하기 2 p35)
-* [23:44 숫자의 합 p36](#23:44 숫자의 합 p36)
-* [24:35 열 개씩 끊어 출력하기 p37](#24:35 열 개씩 끊어 출력하기 p37)
-* [24:57 연습하기 p38](#24:57 연습하기 p38)
-* [25:11 별찍기 연습하기 p39](#Practice_Star)
+* [Algorithm](#algorithm)
+* [Problem Solving Sites](problem-solving-sites)
+* [Study Method](study-method)
+* [Time Complexity](time-complexity)
 
 
 
+## Algorithm
+problem which exist in life
+e.g)
+- Problem: How to go from Compacy to Home?
+ - Bus : 30min, 1200Won
+ - Tax : 10min, 12000won
+- Use Bus, Why? because its more cheap.
+- But, the solution can be changed if condition is added?
+  - If additional condition is go to home within under 20 min.
+    - Use Tax.
 
-## Algorithm Title p2
-- dfdfd
-- 2dfdfdfsldfj
-- 3fdfdfmdfj
+
+## Problem Solving Sites
+- BOJ
+- Algospot
+- Codeforces
+- Topcoder
+
+## Study Method
+1. Understanding how to solving the problme and algorithm.
+  - It doesn't need to be perfect, partial understaing is OK.
+2. Solving related problems.
+  - Only takes 2 hours far per 1 problem.
+  - See the solution.
+3. from 1, 2, make question if there are things that you can't understand.
+4. Solve it again.
+  - If you dont' know, check solution agian.
+  - Still you can't know, just go out and play or move another problem.
+
+```
++ Most important thing is
++ 1. than a programming a lot
++ 2. thinking a lot more how to solve the this problem.
+```
 
 
-## Algorithm p3
-## BOJ p6
-## 04:32 그 외의 사이트 p7
-## 05:17 읽어보면 좋은 글 p8
-## 05:40 공부하는 방법 p9
-## 07:43 가장 중요한 점 p10
-## 07:55 프로그래밍 언어 p12
-## 09:22 시간 복잡도title p13
-## 09:31 시간 복잡도 p14
-## 15:04 시간 복잡도 계산 p22
-## 16:59 입/출력title p23
-## 17:07 Hello World p24
-## 17:31 A+B p25
-## 19:04 A+B - 3 p28
-## 21:03 A+B - 4 p31
-## 21:48 한 줄 입력받기 p33
-## 23:08 그대로 출력하기 p34
-## 23:30 그대로 출력하기 2 p35
-## 23:44 숫자의 합 p36
-## 24:35 열 개씩 끊어 출력하기 p37
-## 24:57 연습하기 p38
-## Practice_Star
+## Time Complexity
+- expect the how my code takes time.
+  - not a exactly expect, just expect approximately.
+- What time is it take about input size.
+  - for worst case, not a best case.
+
+
+## Pracitce
+### Hello World
+- [x] https://www.acmicpc.net/problem/2557
+
+### A+B
+-[x] https://www.acmicpc.net/problem/1000
+-[x] https://www.acmicpc.net/problem/2558
+-[x] https://www.acmicpc.net/problem/10950
+-[x] https://www.acmicpc.net/problem/10951
+-[x] https://www.acmicpc.net/problem/10952
+-[x] https://www.acmicpc.net/problem/10953
+-[x] https://www.acmicpc.net/problem/11021
+-[x] https://www.acmicpc.net/problem/11022
+
+### Print As it is
+-[ ] https://www.acmicpc.net/problem/11718
+-[ ] https://www.acmicpc.net/problem/11719
+
+### SumNum
+-[ ] https://www.acmicpc.net/problem/11720
+
+### PrintByDivide
+-[ ] https://www.acmicpc.net/problem/11721
+
+### Print Prac
+-[ ] https://www.acmicpc.net/problem/2741
+-[ ] https://www.acmicpc.net/problem/2742
+-[ ] https://www.acmicpc.net/problem/2739
+-[ ] https://www.acmicpc.net/problem/1924
+-[ ] https://www.acmicpc.net/problem/8393
+-[ ] https://www.acmicpc.net/problem/10818
+
+### Print Star
+
+-[ ] https://www.acmicpc.net/problem/2438
+-[ ] https://www.acmicpc.net/problem/2439
+-[ ] https://www.acmicpc.net/problem/2440
+-[ ] https://www.acmicpc.net/problem/2441
+-[ ] https://www.acmicpc.net/problem/2442
+-[ ] https://www.acmicpc.net/problem/2444
+-[ ] https://www.acmicpc.net/problem/2445
+-[ ] https://www.acmicpc.net/problem/2446
+-[ ] https://www.acmicpc.net/problem/2522
+-[ ] https://www.acmicpc.net/problem/10991
+-[ ] https://www.acmicpc.net/problem/10992
