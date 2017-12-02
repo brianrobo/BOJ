@@ -3,8 +3,8 @@
 Table of Content
 ================
 
-* [00:14 알고리즘(title) p2](#AlgorithmTitle_P2)
-* [00:18 알고리즘 p3](#00:18 알고리즘 p3)
+* [00:14 알고리즘(title) p2](#AlgorithmTitle-P2)
+* [00:18 알고리즘 p3](#00:18-알고리즘-p3)
 * [04:12 Baekjoon Online Judge p6](#04:12 Baekjoon Online Judge p6)
 * [04:32 그 외의 사이트 p7](#04:32 그 외의 사이트 p7)
 * [05:17 읽어보면 좋은 글 p8](#05:17 읽어보면 좋은 글 p8)
@@ -30,7 +30,7 @@ Table of Content
 
 
 
-## AlgorithmTitle_P2
+## AlgorithmTitle P2
 - 1...
 - 2.dfsldfj
 - 3.m.dfmd.fmdfj
