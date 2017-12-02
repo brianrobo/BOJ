@@ -30,7 +30,7 @@ Table of Content
 
 
 
-## 00:14 알고리즘title p2
+## 00:14AlgorithmTitleP2
 ## 00:18 알고리즘 p3
 ## 04:12 Baekjoon Online Judge p6
 ## 04:32 그 외의 사이트 p7
