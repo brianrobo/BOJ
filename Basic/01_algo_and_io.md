@@ -69,21 +69,21 @@ e.g)
 - [x] https://www.acmicpc.net/problem/11022
 
 ### Print As it is
-- [ ] https://www.acmicpc.net/problem/11718
-- [ ] https://www.acmicpc.net/problem/11719
+- [x] https://www.acmicpc.net/problem/11718
+- [x] https://www.acmicpc.net/problem/11719
 
 ### SumNum
-- [ ] https://www.acmicpc.net/problem/11720
+- [x] https://www.acmicpc.net/problem/11720
 
 ### PrintByDivide
-- [ ] https://www.acmicpc.net/problem/11721
+- [x] https://www.acmicpc.net/problem/11721
 
 ### Print Prac
-- [ ] https://www.acmicpc.net/problem/2741
-- [ ] https://www.acmicpc.net/problem/2742
-- [ ] https://www.acmicpc.net/problem/2739
-- [ ] https://www.acmicpc.net/problem/1924
-- [ ] https://www.acmicpc.net/problem/8393
+- [x] https://www.acmicpc.net/problem/2741
+- [x] https://www.acmicpc.net/problem/2742
+- [x] https://www.acmicpc.net/problem/2739
+- [x] https://www.acmicpc.net/problem/1924
+- [x] https://www.acmicpc.net/problem/8393
 - [ ] https://www.acmicpc.net/problem/10818
 
 ### Print Star
