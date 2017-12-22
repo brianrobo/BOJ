@@ -1,5 +1,12 @@
 # BOJ Problems
 
+### Coding Music
+- <https://youtu.be/0r6C3z3TEKw?list=RDQMvszCsCcYi5c>
+  - Half Life 2 - Violatoin Dubstep Remix
+  - Mega Drive - Converter
+- <https://youtu.be/WZxIGmxRGXU>
+
+
 ### Algorithm Problem Solving Roadmap
 
 
