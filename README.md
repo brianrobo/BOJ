@@ -7,6 +7,10 @@
 - <https://youtu.be/WZxIGmxRGXU>
 
 
+### Coding Typing
+- <http://www.speedcoder.net/lessons/#>
+
+
 ### Algorithm Problem Solving Roadmap
 
 
