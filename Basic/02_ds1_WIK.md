@@ -25,3 +25,5 @@
 	}
 ```
 * how to compare two strings
+  - use "==" or use "compare()"
+  - what is difference between them.
